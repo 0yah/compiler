@@ -1,0 +1,18 @@
+
+
+#Strings
+s_Odd = "The Number is an odd number"
+s_Even = "The Number is an even number"
+s_Message = "Enter a number"
+
+print(s_Message)
+n_a = input()
+
+#Assignment
+even = int(n_a) % 2
+
+#Control Structure
+if even == 0:
+    print(s_Even)
+else:
+    print(s_Odd)
